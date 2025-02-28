@@ -30,7 +30,7 @@ namespace PI_VAGNER
                 {
 
                     consulta.Open();
-                    string listagem = "SELECT id_produto , nome_item, preco_item, parcelamento, versao, descricao, ano_lancamento, quantidade, img_produto FROM cadastro_produto";
+                    string listagem = "SELECT id_produto , nome_item, preco_item, parcelamento, versao, descricao, ano_lancamento, quantidade, img FROM cadastro_produto";
 
                     using (MySqlCommand cmd = new MySqlCommand(listagem, consulta))
                     {

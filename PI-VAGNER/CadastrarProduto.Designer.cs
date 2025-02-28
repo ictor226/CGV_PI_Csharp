@@ -147,6 +147,7 @@
             this.descricao.Size = new System.Drawing.Size(354, 146);
             this.descricao.TabIndex = 23;
             this.descricao.Text = " ";
+            this.descricao.TextChanged += new System.EventHandler(this.descricao_TextChanged);
             // 
             // buttonSalvar
             // 
