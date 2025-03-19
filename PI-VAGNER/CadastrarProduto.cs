@@ -69,7 +69,8 @@ namespace PI_VAGNER
         {
             string conexaoString = "Server=localhost; Port=3306; Database=bd_cgv; Uid=root; Pwd=;";
 
-            string query = "INSERT INTO cadastro_produto (nome_item, preco_item, parcelamento, versao, descricao, ano_lancamento, quantidade, img)  VALUES (@nome_item, @preco_item, @parcelamento, @versao, @descricao, @ano_lancamento, @quantidade, @img)";
+            string query = "INSERT INTO cadastro_produto (nome_item, preco_item, parcelamento, versao, descricao, ano_lancamento, quantidade, img_produto)  VALUES " +
+                "(@nome_item, @preco_item, @parcelamento, @versao, @descricao, @ano_lancamento, @quantidade, @img_produto)";
 
 
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
@@ -96,7 +97,7 @@ namespace PI_VAGNER
                         comando.Parameters.AddWithValue("@descricao", descricao.Text);
                         comando.Parameters.AddWithValue("@ano_lancamento", ano_lancamento.Text);
                         comando.Parameters.AddWithValue("@quantidade", quantidade.Text);
-                        comando.Parameters.AddWithValue("@img", imageBytes);
+                        comando.Parameters.AddWithValue("@img_produto", imageBytes);
 
 
                         // Executa o comando de inserção
