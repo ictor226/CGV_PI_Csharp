@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\",
+  "WorkspaceRootPath": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\xammp\\htdocs\\cgv_pi_csharp\\pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Xammp\\htdocs\\CGV_PI_Csharp\\pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Xammp\\htdocs\\CGV_PI_Csharp\\pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Xammp\\htdocs\\CGV_PI_Csharp\\pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Xammp\\htdocs\\CGV_PI_Csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,23 +43,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "gerenciarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
+              "RelativeDocumentMoniker": "PI-VAGNER\\gerenciarCliente.cs",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs*",
+              "RelativeToolTip": "PI-VAGNER\\gerenciarCliente.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:35:38.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "gerenciar produtos.cs",
-              "DocumentMoniker": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\gerenciar produtos.cs",
-              "ToolTip": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs*",
-              "RelativeToolTip": "PI-VAGNER\\gerenciar produtos.cs*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAmwCIAAABTAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
+              "RelativeToolTip": "PI-VAGNER\\gerenciar produtos.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T14:31:05.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CadastrarProduto.cs [Design]",
-              "DocumentMoniker": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\CadastrarProduto.cs",
-              "ToolTip": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs [Design]",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs [Design]",
               "RelativeToolTip": "PI-VAGNER\\CadastrarProduto.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T14:24:40.733Z",
@@ -63,37 +80,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "gerenciar produtos.cs [Design]",
-              "DocumentMoniker": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\gerenciar produtos.cs",
-              "ToolTip": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs [Design]*",
-              "RelativeToolTip": "PI-VAGNER\\gerenciar produtos.cs [Design]*",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs [Design]",
+              "RelativeToolTip": "PI-VAGNER\\gerenciar produtos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T14:31:04.073Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "gerenciarCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\gerenciarCliente.cs",
-              "ToolTip": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs [Design]",
-              "RelativeToolTip": "PI-VAGNER\\gerenciarCliente.cs [Design]",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs [Design]*",
+              "RelativeToolTip": "PI-VAGNER\\gerenciarCliente.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T14:31:01.707Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CadastrarProduto.cs",
-              "DocumentMoniker": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\CadastrarProduto.cs",
-              "ToolTip": "C:\\Xammp\\htdocs\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
               "RelativeToolTip": "PI-VAGNER\\CadastrarProduto.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAADwv2kAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAuwKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T14:24:43.477Z",
               "EditorCaption": ""

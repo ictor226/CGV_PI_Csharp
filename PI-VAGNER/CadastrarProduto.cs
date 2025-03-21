@@ -58,9 +58,9 @@ namespace PI_VAGNER
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                img_produto.Image =Image.FromFile(openFileDialog.FileName);
+                img_produto1.Image = Image.FromFile(openFileDialog.FileName);
 
-                img_produto.SizeMode = PictureBoxSizeMode.Zoom;
+                img_produto1.SizeMode = PictureBoxSizeMode.Zoom;
             }
 
         }
@@ -69,27 +69,35 @@ namespace PI_VAGNER
         {
             string conexaoString = "Server=localhost; Port=3306; Database=bd_cgv; Uid=root; Pwd=;";
 
-            string query = "INSERT INTO cadastro_produto (nome_item, preco_item, parcelamento, versao, descricao, ano_lancamento, quantidade, img_produto)  VALUES " +
-                "(@nome_item, @preco_item, @parcelamento, @versao, @descricao, @ano_lancamento, @quantidade, @img_produto)";
+            // Comando SQL com os parâmetros para as imagens
+            string query = "INSERT INTO cadastro_produto (nome_item, preco_item, parcelamento, versao, descricao, ano_lancamento, quantidade, img_produto1, img_produto2, img_produto3) VALUES " +
+                   "(@nome_item, @preco_item, @parcelamento, @versao, @descricao, @ano_lancamento, @quantidade, @img_produto1, @img_produto2, @img_produto3)";
 
-
+            // Abrindo a conexão
             using (MySqlConnection conexao = new MySqlConnection(conexaoString))
             {
                 try
                 {
-                    MemoryStream ms = new MemoryStream();
-                    img_produto.Image.Save(ms, img_produto.Image.RawFormat);
-                    byte[] imageBytes = ms.ToArray();
-                    conexao.Close();
+                    // Convertendo as imagens para byte[] antes de abrir a conexão
+                    MemoryStream ms1 = new MemoryStream();
+                    img_produto1.Image.Save(ms1, img_produto1.Image.RawFormat);
+                    byte[] imageBytes1 = ms1.ToArray();
 
+                    MemoryStream ms2 = new MemoryStream();
+                    img_produto2.Image.Save(ms2, img_produto2.Image.RawFormat);
+                    byte[] imageBytes2 = ms2.ToArray();
 
+                    MemoryStream ms3 = new MemoryStream();
+                    img_produto3.Image.Save(ms3, img_produto3.Image.RawFormat);
+                    byte[] imageBytes3 = ms3.ToArray();
 
-                    //Abre a conexão
+                    // Abrindo a conexão
                     conexao.Open();
-                    //Crie o comando SQL
+
+                    // Criando o comando SQL
                     using (MySqlCommand comando = new MySqlCommand(query, conexao))
                     {
-                        //Adicionar os parâmentros com os valores dos TextBox
+                        // Adicionando os parâmetros com os valores dos campos de texto e imagens
                         comando.Parameters.AddWithValue("@nome_item", nome_item.Text);
                         comando.Parameters.AddWithValue("@preco_item", preco_item.Text);
                         comando.Parameters.AddWithValue("@parcelamento", parcelamento.Text);
@@ -97,12 +105,14 @@ namespace PI_VAGNER
                         comando.Parameters.AddWithValue("@descricao", descricao.Text);
                         comando.Parameters.AddWithValue("@ano_lancamento", ano_lancamento.Text);
                         comando.Parameters.AddWithValue("@quantidade", quantidade.Text);
-                        comando.Parameters.AddWithValue("@img_produto", imageBytes);
+                        comando.Parameters.AddWithValue("@img_produto1", imageBytes1);
+                        comando.Parameters.AddWithValue("@img_produto2", imageBytes2);
+                        comando.Parameters.AddWithValue("@img_produto3", imageBytes3);
 
-
-                        // Executa o comando de inserção
+                        // Executando o comando de inserção
                         comando.ExecuteNonQuery();
 
+                        // Limpar os campos após salvar
                         nome_item.Text = "";
                         preco_item.Text = "";
                         parcelamento.Text = "";
@@ -110,17 +120,16 @@ namespace PI_VAGNER
                         descricao.Text = "";
                         ano_lancamento.Text = "";
                         quantidade.Text = "";
-                        
-
                     }
                 }
                 catch (Exception ex)
                 {
-                    // em caso de erro, exiba menssagem do erro
+                    // Exibindo erro em caso de falha
                     MessageBox.Show("Erro: " + ex.Message);
                 }
             }
         }
+
 
         private void img_produto_Click(object sender, EventArgs e)
         {
@@ -130,6 +139,34 @@ namespace PI_VAGNER
         private void descricao_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.Filter = "Arquivos de Imagem|*.jpg;*.jpeg;*.png;*.gif;*.bmp";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                img_produto2.Image = Image.FromFile(openFileDialog.FileName);
+
+                img_produto2.SizeMode = PictureBoxSizeMode.Zoom;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.Filter = "Arquivos de Imagem|*.jpg;*.jpeg;*.png;*.gif;*.bmp";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                img_produto3.Image = Image.FromFile(openFileDialog.FileName);
+
+                img_produto3.SizeMode = PictureBoxSizeMode.Zoom;
+            }
         }
     }
 }

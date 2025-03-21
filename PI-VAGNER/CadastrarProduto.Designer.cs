@@ -34,7 +34,7 @@
             this.parcelamento = new System.Windows.Forms.MaskedTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.img_produto = new System.Windows.Forms.PictureBox();
+            this.img_produto1 = new System.Windows.Forms.PictureBox();
             this.descricao = new System.Windows.Forms.TextBox();
             this.buttonSalvar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -48,8 +48,14 @@
             this.quantidade = new System.Windows.Forms.MaskedTextBox();
             this.ano_lancamento = new System.Windows.Forms.MaskedTextBox();
             this.nome_item = new System.Windows.Forms.MaskedTextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.img_produto2 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.img_produto3 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.img_produto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -65,11 +71,15 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.img_produto3);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.img_produto2);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.parcelamento);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.img_produto);
+            this.groupBox1.Controls.Add(this.img_produto1);
             this.groupBox1.Controls.Add(this.descricao);
             this.groupBox1.Controls.Add(this.buttonSalvar);
             this.groupBox1.Controls.Add(this.label7);
@@ -111,9 +121,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(75, 246);
+            this.button1.Location = new System.Drawing.Point(161, 59);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 33);
+            this.button1.Size = new System.Drawing.Size(113, 53);
             this.button1.TabIndex = 26;
             this.button1.Text = "adicionar uma imagem";
             this.button1.UseVisualStyleBackColor = true;
@@ -129,15 +139,15 @@
             this.label8.TabIndex = 24;
             this.label8.Text = "adicione uma imagem";
             // 
-            // img_produto
+            // img_produto1
             // 
-            this.img_produto.BackColor = System.Drawing.SystemColors.Control;
-            this.img_produto.Location = new System.Drawing.Point(42, 47);
-            this.img_produto.Name = "img_produto";
-            this.img_produto.Size = new System.Drawing.Size(234, 183);
-            this.img_produto.TabIndex = 25;
-            this.img_produto.TabStop = false;
-            this.img_produto.Click += new System.EventHandler(this.img_produto_Click);
+            this.img_produto1.BackColor = System.Drawing.SystemColors.Control;
+            this.img_produto1.Location = new System.Drawing.Point(6, 47);
+            this.img_produto1.Name = "img_produto1";
+            this.img_produto1.Size = new System.Drawing.Size(149, 78);
+            this.img_produto1.TabIndex = 25;
+            this.img_produto1.TabStop = false;
+            this.img_produto1.Click += new System.EventHandler(this.img_produto_Click);
             // 
             // descricao
             // 
@@ -154,7 +164,7 @@
             this.buttonSalvar.BackColor = System.Drawing.Color.ForestGreen;
             this.buttonSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalvar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonSalvar.Location = new System.Drawing.Point(107, 304);
+            this.buttonSalvar.Location = new System.Drawing.Point(308, 345);
             this.buttonSalvar.Name = "buttonSalvar";
             this.buttonSalvar.Size = new System.Drawing.Size(126, 38);
             this.buttonSalvar.TabIndex = 22;
@@ -268,6 +278,46 @@
             this.nome_item.Size = new System.Drawing.Size(308, 29);
             this.nome_item.TabIndex = 9;
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(161, 165);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(113, 53);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "adicionar uma imagem";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // img_produto2
+            // 
+            this.img_produto2.BackColor = System.Drawing.SystemColors.Control;
+            this.img_produto2.Location = new System.Drawing.Point(6, 153);
+            this.img_produto2.Name = "img_produto2";
+            this.img_produto2.Size = new System.Drawing.Size(149, 78);
+            this.img_produto2.TabIndex = 29;
+            this.img_produto2.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(161, 270);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(113, 53);
+            this.button3.TabIndex = 32;
+            this.button3.Text = "adicionar uma imagem";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // img_produto3
+            // 
+            this.img_produto3.BackColor = System.Drawing.SystemColors.Control;
+            this.img_produto3.Location = new System.Drawing.Point(6, 258);
+            this.img_produto3.Name = "img_produto3";
+            this.img_produto3.Size = new System.Drawing.Size(149, 78);
+            this.img_produto3.TabIndex = 31;
+            this.img_produto3.TabStop = false;
+            // 
             // CadastrarProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -281,7 +331,9 @@
             this.Load += new System.EventHandler(this.CadastrarProduto_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.img_produto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,9 +357,13 @@
         private System.Windows.Forms.TextBox descricao;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox img_produto;
+        private System.Windows.Forms.PictureBox img_produto1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.MaskedTextBox parcelamento;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox img_produto3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox img_produto2;
     }
 }
