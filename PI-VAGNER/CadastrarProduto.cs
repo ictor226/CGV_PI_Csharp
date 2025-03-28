@@ -99,7 +99,7 @@ namespace PI_VAGNER
                     {
                         // Adicionando os parâmetros com os valores dos campos de texto e imagens
                         comando.Parameters.AddWithValue("@nome_item", nome_item.Text);
-                        comando.Parameters.AddWithValue("@preco_item", preco_item.Text);
+                        comando.Parameters.AddWithValue("@preco_item", preco_item1.Text);
                         comando.Parameters.AddWithValue("@parcelamento", parcelamento.Text);
                         comando.Parameters.AddWithValue("@versao", versao.Text);
                         comando.Parameters.AddWithValue("@descricao", descricao.Text);
@@ -114,7 +114,7 @@ namespace PI_VAGNER
 
                         // Limpar os campos após salvar
                         nome_item.Text = "";
-                        preco_item.Text = "";
+                        preco_item1.Text = "";
                         parcelamento.Text = "";
                         versao.Text = "";
                         descricao.Text = "";
@@ -167,6 +167,11 @@ namespace PI_VAGNER
 
                 img_produto3.SizeMode = PictureBoxSizeMode.Zoom;
             }
+        }
+
+        private void preco_item_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

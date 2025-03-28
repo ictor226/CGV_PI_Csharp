@@ -30,6 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.img_produto3 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.img_produto2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.parcelamento = new System.Windows.Forms.MaskedTextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -43,19 +47,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.preco_item = new System.Windows.Forms.MaskedTextBox();
             this.versao = new System.Windows.Forms.MaskedTextBox();
             this.quantidade = new System.Windows.Forms.MaskedTextBox();
             this.ano_lancamento = new System.Windows.Forms.MaskedTextBox();
             this.nome_item = new System.Windows.Forms.MaskedTextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.img_produto2 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.img_produto3 = new System.Windows.Forms.PictureBox();
+            this.preco_item1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.img_produto1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img_produto2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_produto3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -71,6 +71,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.preco_item1);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.img_produto3);
             this.groupBox1.Controls.Add(this.button2);
@@ -88,7 +89,6 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.preco_item);
             this.groupBox1.Controls.Add(this.versao);
             this.groupBox1.Controls.Add(this.quantidade);
             this.groupBox1.Controls.Add(this.ano_lancamento);
@@ -99,6 +99,46 @@
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(161, 270);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(113, 53);
+            this.button3.TabIndex = 32;
+            this.button3.Text = "adicionar uma imagem";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // img_produto3
+            // 
+            this.img_produto3.BackColor = System.Drawing.SystemColors.Control;
+            this.img_produto3.Location = new System.Drawing.Point(6, 258);
+            this.img_produto3.Name = "img_produto3";
+            this.img_produto3.Size = new System.Drawing.Size(149, 78);
+            this.img_produto3.TabIndex = 31;
+            this.img_produto3.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(161, 165);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(113, 53);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "adicionar uma imagem";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // img_produto2
+            // 
+            this.img_produto2.BackColor = System.Drawing.SystemColors.Control;
+            this.img_produto2.Location = new System.Drawing.Point(6, 153);
+            this.img_produto2.Name = "img_produto2";
+            this.img_produto2.Size = new System.Drawing.Size(149, 78);
+            this.img_produto2.TabIndex = 29;
+            this.img_produto2.TabStop = false;
             // 
             // label9
             // 
@@ -234,15 +274,6 @@
             this.label2.TabIndex = 16;
             this.label2.Text = "Nome:";
             // 
-            // preco_item
-            // 
-            this.preco_item.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.preco_item.Location = new System.Drawing.Point(677, 131);
-            this.preco_item.Mask = "00.000.00";
-            this.preco_item.Name = "preco_item";
-            this.preco_item.Size = new System.Drawing.Size(90, 29);
-            this.preco_item.TabIndex = 14;
-            // 
             // versao
             // 
             this.versao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -278,45 +309,14 @@
             this.nome_item.Size = new System.Drawing.Size(308, 29);
             this.nome_item.TabIndex = 9;
             // 
-            // button2
+            // preco_item1
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(161, 165);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 53);
-            this.button2.TabIndex = 30;
-            this.button2.Text = "adicionar uma imagem";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // img_produto2
-            // 
-            this.img_produto2.BackColor = System.Drawing.SystemColors.Control;
-            this.img_produto2.Location = new System.Drawing.Point(6, 153);
-            this.img_produto2.Name = "img_produto2";
-            this.img_produto2.Size = new System.Drawing.Size(149, 78);
-            this.img_produto2.TabIndex = 29;
-            this.img_produto2.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(161, 270);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(113, 53);
-            this.button3.TabIndex = 32;
-            this.button3.Text = "adicionar uma imagem";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // img_produto3
-            // 
-            this.img_produto3.BackColor = System.Drawing.SystemColors.Control;
-            this.img_produto3.Location = new System.Drawing.Point(6, 258);
-            this.img_produto3.Name = "img_produto3";
-            this.img_produto3.Size = new System.Drawing.Size(149, 78);
-            this.img_produto3.TabIndex = 31;
-            this.img_produto3.TabStop = false;
+            this.preco_item1.Location = new System.Drawing.Point(669, 127);
+            this.preco_item1.Multiline = true;
+            this.preco_item1.Name = "preco_item1";
+            this.preco_item1.Size = new System.Drawing.Size(158, 33);
+            this.preco_item1.TabIndex = 24;
+            this.preco_item1.Text = " ";
             // 
             // CadastrarProduto
             // 
@@ -331,9 +331,9 @@
             this.Load += new System.EventHandler(this.CadastrarProduto_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.img_produto1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img_produto2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_produto3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_produto1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -344,7 +344,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MaskedTextBox preco_item;
         private System.Windows.Forms.MaskedTextBox versao;
         private System.Windows.Forms.MaskedTextBox quantidade;
         private System.Windows.Forms.MaskedTextBox ano_lancamento;
@@ -365,5 +364,6 @@
         private System.Windows.Forms.PictureBox img_produto3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox img_produto2;
+        private System.Windows.Forms.TextBox preco_item1;
     }
 }
