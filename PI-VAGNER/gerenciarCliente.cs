@@ -51,7 +51,57 @@ namespace PI_VAGNER
 
         private void buttonRemoverClientes_Click(object sender, EventArgs e)
         {
-            // A lógica para remover clientes deve ser implementada aqui
+            if (dgvCliente.SelectedRows.Count > 0)
+            {
+                // Pega o ID do cliente da linha selecionada
+                int produtoID = Convert.ToInt32(dgvCliente.SelectedRows[0].Cells["id"].Value);
+                DialogResult result = MessageBox.Show("Tem certeza que deseja excluir este cliente?", "Confirmar Exclusão", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    string connectionString = "Server=localhost; Port=3306; Database=bd_cgv; Uid=root; Pwd=;";
+
+                    try
+                    {
+                        // Cria uma conexão com o banco de dados Mysql
+                        using (MySqlConnection consulta = new MySqlConnection(connectionString))
+                        {
+                            // Abre a conexão 
+                            consulta.Open();
+
+                            // Consulta SQL para excluir o cliente na tabela 'login'
+                            string deleteQuery = "DELETE FROM login WHERE id = @id";  // Certifique-se de que a tabela é 'login' e não 'tb_user'
+
+                            using (MySqlCommand cmd = new MySqlCommand(deleteQuery, consulta))
+                            {
+                                // Adiciona o parâmetro com o ID do cliente
+                                cmd.Parameters.AddWithValue("@id", produtoID);
+
+                                // Executa a consulta e verifica se a exclusão foi bem-sucedida
+                                int rowsAffected = cmd.ExecuteNonQuery();
+
+                                if (rowsAffected > 0)
+                                {
+                                    MessageBox.Show("Cliente excluído com sucesso!");
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Falha ao excluir o cliente.");
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Erro ao excluir o cliente: " + ex.Message);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, selecione um cliente para excluir.");
+            }
         }
+
     }
 }

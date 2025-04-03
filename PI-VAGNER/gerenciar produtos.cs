@@ -37,6 +37,7 @@ namespace PI_VAGNER
                         MySqlDataReader reader = cmd.ExecuteReader();
 
                         DataTable dadosClientes = new DataTable();
+                     
                         dadosClientes.Load(reader);
 
                         dgvProduto.DataSource = dadosClientes;

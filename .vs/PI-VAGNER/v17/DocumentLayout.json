@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 340,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +26,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CadastrarProduto.cs",
-              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
-              "RelativeDocumentMoniker": "PI-VAGNER\\CadastrarProduto.cs",
-              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
-              "RelativeToolTip": "PI-VAGNER\\CadastrarProduto.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAYwIMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "gerenciarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
+              "RelativeDocumentMoniker": "PI-VAGNER\\gerenciarCliente.cs",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
+              "RelativeToolTip": "PI-VAGNER\\gerenciarCliente.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T14:40:59.059Z",
+              "WhenOpened": "2025-04-03T11:53:59.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CadastrarProduto.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs",
-              "RelativeDocumentMoniker": "PI-VAGNER\\CadastrarProduto.cs",
-              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\CadastrarProduto.cs [Design]",
-              "RelativeToolTip": "PI-VAGNER\\CadastrarProduto.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "gerenciarCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
+              "RelativeDocumentMoniker": "PI-VAGNER\\gerenciarCliente.cs",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs [Design]",
+              "RelativeToolTip": "PI-VAGNER\\gerenciarCliente.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T14:24:40.733Z",
+              "WhenOpened": "2025-04-03T11:48:46.695Z",
               "EditorCaption": " [Design]"
             }
           ]

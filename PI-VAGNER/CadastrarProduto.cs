@@ -91,6 +91,14 @@ namespace PI_VAGNER
                     img_produto3.Image.Save(ms3, img_produto3.Image.RawFormat);
                     byte[] imageBytes3 = ms3.ToArray();
 
+
+
+
+
+                    byte[] descricaoBytes = Encoding.UTF8.GetBytes(descricao.Text);
+
+
+
                     // Abrindo a conexão
                     conexao.Open();
 
@@ -102,7 +110,7 @@ namespace PI_VAGNER
                         comando.Parameters.AddWithValue("@preco_item", preco_item1.Text);
                         comando.Parameters.AddWithValue("@parcelamento", parcelamento.Text);
                         comando.Parameters.AddWithValue("@versao", versao.Text);
-                        comando.Parameters.AddWithValue("@descricao", descricao.Text);
+                        comando.Parameters.AddWithValue("@descricao", descricaoBytes);
                         comando.Parameters.AddWithValue("@ano_lancamento", ano_lancamento.Text);
                         comando.Parameters.AddWithValue("@quantidade", quantidade.Text);
                         comando.Parameters.AddWithValue("@img_produto1", imageBytes1);

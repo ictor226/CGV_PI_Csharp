@@ -1,6 +1,6 @@
 ﻿namespace PI_VAGNER
 {
-    partial class Form1
+    partial class Tela_Inicial
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -31,12 +31,12 @@
             this.buttonLimparCampos = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBoxUsuario = new System.Windows.Forms.TextBox();
-            this.textBoxSenha = new System.Windows.Forms.TextBox();
+            this.textBox_usuario = new System.Windows.Forms.TextBox();
+            this.textBox_senha = new System.Windows.Forms.TextBox();
             this.buttonEntrar = new System.Windows.Forms.Button();
-            this.labelM = new System.Windows.Forms.Label();
+            this.label_mensagem = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.ButtonSenha = new System.Windows.Forms.Button();
+            this.button_exibirSenha = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,25 +70,28 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Senha";
             // 
-            // textBoxUsuario
+            // textBox_usuario
             // 
-            this.textBoxUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsuario.Location = new System.Drawing.Point(127, 63);
-            this.textBoxUsuario.Name = "textBoxUsuario";
-            this.textBoxUsuario.Size = new System.Drawing.Size(231, 24);
-            this.textBoxUsuario.TabIndex = 3;
+            this.textBox_usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_usuario.Location = new System.Drawing.Point(127, 63);
+            this.textBox_usuario.Name = "textBox_usuario";
+            this.textBox_usuario.Size = new System.Drawing.Size(231, 24);
+            this.textBox_usuario.TabIndex = 3;
+            this.textBox_usuario.TextChanged += new System.EventHandler(this.textBoxUsuario_TextChanged);
             // 
-            // textBoxSenha
+            // textBox_senha
             // 
-            this.textBoxSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSenha.Location = new System.Drawing.Point(127, 104);
-            this.textBoxSenha.Name = "textBoxSenha";
-            this.textBoxSenha.Size = new System.Drawing.Size(231, 24);
-            this.textBoxSenha.TabIndex = 4;
+            this.textBox_senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_senha.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.textBox_senha.Location = new System.Drawing.Point(124, 100);
+            this.textBox_senha.Name = "textBox_senha";
+            this.textBox_senha.Size = new System.Drawing.Size(231, 24);
+            this.textBox_senha.TabIndex = 4;
+            this.textBox_senha.UseSystemPasswordChar = true;
             // 
             // buttonEntrar
             // 
-            this.buttonEntrar.Location = new System.Drawing.Point(179, 143);
+            this.buttonEntrar.Location = new System.Drawing.Point(176, 139);
             this.buttonEntrar.Name = "buttonEntrar";
             this.buttonEntrar.Size = new System.Drawing.Size(121, 23);
             this.buttonEntrar.TabIndex = 5;
@@ -96,22 +99,22 @@
             this.buttonEntrar.UseVisualStyleBackColor = true;
             this.buttonEntrar.Click += new System.EventHandler(this.buttonEntrar_Click);
             // 
-            // labelM
+            // label_mensagem
             // 
-            this.labelM.AutoSize = true;
-            this.labelM.Location = new System.Drawing.Point(221, 187);
-            this.labelM.Name = "labelM";
-            this.labelM.Size = new System.Drawing.Size(0, 13);
-            this.labelM.TabIndex = 7;
+            this.label_mensagem.AutoSize = true;
+            this.label_mensagem.Location = new System.Drawing.Point(218, 183);
+            this.label_mensagem.Name = "label_mensagem";
+            this.label_mensagem.Size = new System.Drawing.Size(0, 13);
+            this.label_mensagem.TabIndex = 7;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox1.Controls.Add(this.labelM);
-            this.groupBox1.Controls.Add(this.ButtonSenha);
+            this.groupBox1.Controls.Add(this.label_mensagem);
+            this.groupBox1.Controls.Add(this.button_exibirSenha);
             this.groupBox1.Controls.Add(this.buttonEntrar);
-            this.groupBox1.Controls.Add(this.textBoxSenha);
-            this.groupBox1.Controls.Add(this.textBoxUsuario);
+            this.groupBox1.Controls.Add(this.textBox_senha);
+            this.groupBox1.Controls.Add(this.textBox_usuario);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.buttonLimparCampos);
@@ -122,25 +125,26 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Acessar o Sistema";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // ButtonSenha
+            // button_exibirSenha
             // 
-            this.ButtonSenha.Location = new System.Drawing.Point(364, 101);
-            this.ButtonSenha.Name = "ButtonSenha";
-            this.ButtonSenha.Size = new System.Drawing.Size(100, 23);
-            this.ButtonSenha.TabIndex = 6;
-            this.ButtonSenha.Text = "Mostrar Senha";
-            this.ButtonSenha.UseVisualStyleBackColor = true;
-            this.ButtonSenha.Click += new System.EventHandler(this.ButtonSenha_Click);
+            this.button_exibirSenha.Location = new System.Drawing.Point(361, 97);
+            this.button_exibirSenha.Name = "button_exibirSenha";
+            this.button_exibirSenha.Size = new System.Drawing.Size(100, 23);
+            this.button_exibirSenha.TabIndex = 6;
+            this.button_exibirSenha.Text = "Mostrar Senha";
+            this.button_exibirSenha.UseVisualStyleBackColor = true;
+            this.button_exibirSenha.Click += new System.EventHandler(this.ButtonSenha_Click);
             // 
-            // Form1
+            // Tela_Inicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "Tela_Inicial";
             this.Text = "Acessar o Sistema";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -153,12 +157,12 @@
         private System.Windows.Forms.Button buttonLimparCampos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBoxUsuario;
-        private System.Windows.Forms.TextBox textBoxSenha;
+        private System.Windows.Forms.TextBox textBox_usuario;
+        private System.Windows.Forms.TextBox textBox_senha;
         private System.Windows.Forms.Button buttonEntrar;
-        private System.Windows.Forms.Label labelM;
+        private System.Windows.Forms.Label label_mensagem;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button ButtonSenha;
+        private System.Windows.Forms.Button button_exibirSenha;
     }
 }
 

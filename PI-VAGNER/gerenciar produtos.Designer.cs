@@ -36,15 +36,16 @@
             // 
             // dgvProduto
             // 
+            this.dgvProduto.AllowUserToOrderColumns = true;
             this.dgvProduto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProduto.Location = new System.Drawing.Point(12, 28);
             this.dgvProduto.Name = "dgvProduto";
-            this.dgvProduto.Size = new System.Drawing.Size(500, 410);
+            this.dgvProduto.Size = new System.Drawing.Size(603, 410);
             this.dgvProduto.TabIndex = 0;
             // 
             // buttonPesquisarClientes
             // 
-            this.buttonPesquisarClientes.Location = new System.Drawing.Point(582, 52);
+            this.buttonPesquisarClientes.Location = new System.Drawing.Point(647, 352);
             this.buttonPesquisarClientes.Name = "buttonPesquisarClientes";
             this.buttonPesquisarClientes.Size = new System.Drawing.Size(153, 46);
             this.buttonPesquisarClientes.TabIndex = 1;
@@ -54,7 +55,7 @@
             // 
             // buttonRemoverClientes
             // 
-            this.buttonRemoverClientes.Location = new System.Drawing.Point(582, 144);
+            this.buttonRemoverClientes.Location = new System.Drawing.Point(647, 404);
             this.buttonRemoverClientes.Name = "buttonRemoverClientes";
             this.buttonRemoverClientes.Size = new System.Drawing.Size(153, 46);
             this.buttonRemoverClientes.TabIndex = 2;

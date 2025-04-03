@@ -245,7 +245,6 @@ C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\System.R
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.csproj.AssemblyReference.cache
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.CadastrarProduto.resources
-C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.Form1.resources
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.gerenciar_produtos.resources
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.gerenciarCliente.resources
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.menu.resources
@@ -255,3 +254,4 @@ C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNE
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.csproj.Up2Date
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.exe
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.pdb
+C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.Tela_Inicial.resources
