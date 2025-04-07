@@ -244,7 +244,6 @@ C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\System.N
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.csproj.AssemblyReference.cache
-C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.CadastrarProduto.resources
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.gerenciar_produtos.resources
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.gerenciarCliente.resources
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.menu.resources

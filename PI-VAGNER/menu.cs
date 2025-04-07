@@ -12,8 +12,7 @@ namespace PI_VAGNER
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CadastrarProduto form = new CadastrarProduto();
-            form.ShowDialog();
+           
         }
 
         private void menu_Load(object sender, EventArgs e)
