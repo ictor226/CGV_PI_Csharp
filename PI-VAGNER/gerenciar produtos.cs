@@ -21,7 +21,7 @@ namespace PI_VAGNER
         private void buttonPesquisarClientes_Click(object sender, EventArgs e)
         {
             //Defina sua string de conexão com o banco
-            string conectionString = "Server=localhost; Port=3306; Database=bd_cgv; Uid=root; Pwd=;";
+            string conectionString = "Server=srv816.hstgr.io; Port=3306; Database=u149946689_bd_cgv; Uid=u149946689_victor; Pwd=CGV_competition@123";
 
             try
             {
@@ -68,7 +68,8 @@ namespace PI_VAGNER
                 {
 
 
-                    string conectionString = "Server=localhost; Port=3306; Database=bd_cgv; Uid=root; Pwd=;";
+                    //Defina sua string de conexão com o banco
+                    string conectionString = "Server=srv816.hstgr.io; Port=3306; Database=u149946689_bd_cgv; Uid=u149946689_victor; Pwd=CGV_competition@123";
 
                     try
                     {

@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\tela_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\tela_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\tela_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\tela_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\tela_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\tela_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\tela_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|c:\\users\\victor.hlsilva8\\source\\repos\\cgv_pi_csharp\\pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\gerenciar produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F64BCF2-BC85-44B5-9261-4F4A553A3E67}|PI-VAGNER\\PI-VAGNER.csproj|solutionrelative:pi-vagner\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +42,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 340,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "gerenciar produtos.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
+              "RelativeDocumentMoniker": "PI-VAGNER\\gerenciar produtos.cs",
+              "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
+              "RelativeToolTip": "PI-VAGNER\\gerenciar produtos.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAwwEcAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T11:02:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "menu.cs",
               "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\menu.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\menu.cs",
@@ -63,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Tela_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\Tela_Inicial.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\Tela_Inicial.cs",
               "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\Tela_Inicial.cs",
               "RelativeToolTip": "PI-VAGNER\\Tela_Inicial.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAIAwwE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T14:12:54.046Z",
               "EditorCaption": ""
@@ -88,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\menu.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\menu.cs",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "gerenciar produtos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciar produtos.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\gerenciar produtos.cs",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "gerenciarCliente.cs [Design]",
               "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\gerenciarCliente.cs",
@@ -124,13 +141,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "gerenciarCliente.cs",
               "DocumentMoniker": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
               "RelativeDocumentMoniker": "PI-VAGNER\\gerenciarCliente.cs",
               "ToolTip": "C:\\Users\\victor.hlsilva8\\source\\repos\\CGV_PI_Csharp\\PI-VAGNER\\gerenciarCliente.cs",
               "RelativeToolTip": "PI-VAGNER\\gerenciarCliente.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAewDAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwD0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T11:53:59.42Z",
               "EditorCaption": ""

@@ -14,9 +14,8 @@ namespace PI_VAGNER
 
         private void buttonPesquisarcliente_Click(object sender, EventArgs e)
         {
-            // Defina sua string de conexão com o banco
-            string conectionString = "Server=localhost; Port=3306; Database=bd_cgv; Uid=root; Pwd=;";
-
+            //Defina sua string de conexão com o banco
+            string conectionString = "Server=srv816.hstgr.io; Port=3306; Database=u149946689_bd_cgv; Uid=u149946689_victor; Pwd=CGV_competition@123";
             try
             {
                 using (MySqlConnection consulta = new MySqlConnection(conectionString))
@@ -59,7 +58,8 @@ namespace PI_VAGNER
 
                 if (result == DialogResult.Yes)
                 {
-                    string connectionString = "Server=localhost; Port=3306; Database=bd_cgv; Uid=root; Pwd=;";
+                    //Defina sua string de conexão com o banco
+                    string connectionString = "Server=srv816.hstgr.io; Port=3306; Database=u149946689_bd_cgv; Uid=u149946689_victor; Pwd=CGV_competition@123";
 
                     try
                     {

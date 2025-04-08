@@ -254,3 +254,11 @@ C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNE
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.exe
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.pdb
 C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI_VAGNER.Tela_Inicial.resources
+C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\victor.hlsilva8\source\repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\victor.hlsilva8\Source\Repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\PI-VAGNER.exe.manifest
+C:\Users\victor.hlsilva8\Source\Repos\CGV_PI_Csharp\PI-VAGNER\bin\Debug\PI-VAGNER.application
+C:\Users\victor.hlsilva8\Source\Repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.exe.manifest
+C:\Users\victor.hlsilva8\Source\Repos\CGV_PI_Csharp\PI-VAGNER\obj\Debug\PI-VAGNER.application
